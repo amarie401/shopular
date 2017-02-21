@@ -1,0 +1,48 @@
+body {
+background: url('http://wallpapercave.com/wp/0OBRwFi.jpg') no-repeat fixed;
+}
+
+* {
+    font-family: 'Sansita', sans-serif;;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: $white;
+    margin-bottom: 45px;
+}
+
+table {
+  background: $mainRGBA;
+
+    th {
+        font-size: 24px;
+        background-color: $white;
+    }
+    td {
+        text-align: center;
+        }
+    }
+
+    tr.td-list {
+        &:nth-child(even) {
+        background: $mainRGBA;
+        }
+
+        &:nth-child(odd) {
+        background-color: $white;
+        }
+
+       height: 45px;
+       border-bottom: 3px solid $purple;
+    }
+
+.inventory {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sale{
+  height: 25px;
+}
