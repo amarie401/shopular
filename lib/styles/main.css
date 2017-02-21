@@ -64,7 +64,7 @@ table {
     text-align: center; }
 
 tr.td-list {
-  height: 35px;
+  height: 34px;
   border-bottom: 3px solid purple; }
   tr.td-list:nth-child(even) {
     background: rgba(211, 211, 211, 0.27); }
